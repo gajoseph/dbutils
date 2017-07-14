@@ -7,7 +7,7 @@ package dbutils;
 
 /**
  *
- * @author TGAJ2
+ * @author TGAJ2:: test 
  */
 public class Dbtable extends itable{
     
