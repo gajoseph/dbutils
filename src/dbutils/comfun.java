@@ -84,14 +84,6 @@ public class comfun {
     
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
     protected static void listTabDetails(List<itable> tabList){
         //Iterator iterator = tabList.iterator();
         for(itable next  : tabList){

@@ -78,7 +78,7 @@ public class BJCLogger {
    
    
     public BJCLogger(String sFlName, String sOutputfile) throws FileNotFoundException, IOException {
-            if (sFlName == "")      throw new IllegalArgumentException("File Name cannotbe null."); 
+            if (sFlName.equals(""))      throw new IllegalArgumentException("File Name cannotbe null.");
             _sFilename = sFlName;
             _sOutputFilename = sOutputfile;
             
@@ -149,7 +149,7 @@ public class BJCLogger {
    
    
     public BJCLogger(String sFlName) throws FileNotFoundException, IOException {
-            if (sFlName == "")      throw new IllegalArgumentException("File Name cannotbe null."); 
+            if (sFlName == "")      throw new IllegalArgumentException("File Name cannotbe null.");
             _sFilename = sFlName;
             
             fileCreateDatetime = new Date();
